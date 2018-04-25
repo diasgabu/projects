@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coleta de Dados de Calibração</title>
+</head>
+<header>
+    <h1>Coleta de Dados de Calibração - LCI - <img src="logo.png" alt=logo>
+    <br>FRM-086 - Rev.01</h1>
+    <hr>
+    <p>Preencha cada item com atenção.<br>
+        Ao finalizar os lançamentos, você não poderá mais retornar para corrigir qualquer informação.<br>
+        Caso ocorra algum lançamento incorreto, contatar o signatário para que este proceda com a devida correção.
+    </p>
+    <strong><p>* Required</p></strong>
+</header>
+<body>
+    <main>
+        <br>Data de Entrada Detector *<br>
+            <input type="text" name="Data de Entrada Detector *" placeholder="">
+        <br>N° Check-List<br>
+            <input type="text" name="N° Check-List" placeholder="">
+        <br>Pedido / Chamado / Proposta *<br>
+            <input type="text" name="Pedido / Chamado / Proposta *"  placeholder="">
+        <br>Modelo<br>
+            <select name="Modelo">
+                    <option></option>
+                    <option>Altair PRO</option>
+                    <option>Altair PRO Remoto</option>
+                    <option>Altair 2X</option>
+                    <option>Altair 4X</option>
+                    <option>Altair 5X</option>
+                    <option>Altair 5X IR</option>
+                    <option>Altair 4</option>
+                    <option>Altair 5</option>
+                    <option>Orion</option>
+                    <option>Orion Plus</option>
+                    <option>Prima XP</option>
+                    <option>Pulsar</option>
+                    <option>Sirius</option>
+                    <option>Solaris</option>
+                    <option>Ultima XE</option>
+                    <option>Ultima XIR</option>
+                    <option>Ultima XA</option>
+                    <option>Unidade Gás Combustível 218100</option>
+                    <option>Altair 4XR</option>
+            </select>
+        <br>Faixa - Final de Escala *<br>
+              <!--Texto Referente a Faixa - Final de Escala-->
+                Somente para Detectores Fixos c/ saída de corrente<br>
+            <input type="text" name="Faixa - Final de Escala *" placeholder="">
+        <br>Código Produto<br>
+        <!--Texto Referente ao Código Produto-->
+                Indique o código do detector, caso não tenha, digite "-"</br>
+            <input type="text" name="Código Produto" placeholder="">
+        <br>N° de Série *<br>
+            <input type="text" name="N° de Série *" placeholder="">
+        <br>Identificação<br>
+            <input type="text" name="Identificação" placeholder="">
+        <br>Nível de Alarme Baixo - CO<br>
+            <input type="text" name="Nível de Alarme Baixo - CO" placeholder="">
+        <br>Nível de Alarme Alto - CO<br>
+            <input type="text" name="Nível de Alarme Alto - CO" placeholder="">
+        <br>STEL - CO<br>
+            <input type="text" name="STEL - CO" placeholder="">
+        <br>TWA - CO<br>
+            <input type="text" name="TWA - CO" placeholder="">
+        <br>Nível de Alarme Baixo - O2<br>
+            <input type="text" name="Nível de Alarme Baixo - O2" placeholder="">
+        <br>Nível de Alarme Alto - O2<br>
+            <input type="text" name="Nível de Alarme Alto - O2" placeholder="">
+        <br>Nível de Alarme Baixo - H2S<br>
+            <input type="text" name="Nível de Alarme Baixo - H2S" placeholder="">
+        <br>Nível de Alarme Alto - H2S<br>
+            <input type="text" name="Nível de Alarme Alto - H2S" placeholder="">
+        <br>STEL - H2S<br>
+            <input type="text" name="STEL - H2S" placeholder="">
+        <br>TWA - H2S<br>
+            <input type="text" name="TWA - H2S" placeholder="">
+        <br>Nível de Alarme Baixo - CH4<br>
+            <input type="text" name="Nível de Alarme Baixo - CH4" placeholder="">
+        <br>Nível de Alarme Alto - CH4<br>
+            <input type="text" name="Nível de Alarme Alto - CH4" placeholder="">
+        <br>Instalações *<br>
+            <select name="Instalações *">
+                <option></option>
+                <option>LCI - MI</option>
+                <option>LCI - AT</option>
+                <option>CLIENTE</option>
+            </select>
+        <br>Executante *<br>
+            <select name="Executante *">
+                <option></option>
+                <option>Oswaldo A. Pastore</option>
+                <option>Emerson Mazziero</option>
+                <option>Douglas do Carmo Martins</option>
+                <option>Rafael Ferreira Lopes de Freitas</option>
+                <option>Adielson Batista da Silva</option>
+                <option>Henrique Robert Santos Pires</option>
+                <option>Márcia Andrade de Deus e Silva</option>
+                <option>Maria Graciene Silva</option>
+            </select>    
+        <!--Botão para enviar o form para o database-->
+        <p><button>Continue »</button></p>
+    </main>
+    <footer>&copy; 2018 Gabriel Dias</footer>
+</body>
+</html>

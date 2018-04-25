@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*Seletores de Tag*/
+        body{
+            text-align: center;
+            background-color: blue;
+        }
+        h1{
+            background: grey;
+            color: beige;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding-top: 20px;
+        }
+        /*Seletores agrupados*/
+        h1, p{
+            border: 1px solid red;
+        }
+        /*Seletor Aninhado*/
+        div p{
+            color:powderblue;
+        }
+        /*Seletor ID*/
+        #lembrar{
+            width: 20px;
+            height: 20px;
+        }
+        /*Seletor class*/
+        .paragrafo-especial{
+            color: orchid;
+            font-size: 25px;
+        }
+        .texto-especial{
+            text-align: left;
+        }
+        /*Seletor aninhado com class*/
+        div .texto-especial{
+            text-align: left
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="texto-especial">Eu sou um título H1</h1>
+    <p class="paragrafo-especial">Eu sou um parágrafo</p>
+    <p>Eu sou um outro parágrago</p>
+    <div class="texto-especial">
+        <p class="paragrafo-especial">
+            Eu sou um parágrafo dentro do DIV
+        </p>
+    </div>
+    <form action="#">
+        <label for="usuario">Usuario</label>
+        <input type="text" name="usuario" placeholder="Nome do usuário"> <br>
+        <label for="password">Senha </label>
+        <input type="password" name="senha" placeholder="Senha"> <br> 
+        <input type="checkbox" name="lembrar" id="lembrar"> <label for="lembrar">Deseja lembrar de mim?</label> <br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
